@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent; 
+  transition: 0.5s ease;
+  user-select: none;  
+}
+.navbar ul li a:hover,
+:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+
+
+/* Change navbar on scroll */
+.scrolled {
+    /* background-color: #222; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+    color: white;
+}
+
+/* Sections */
+section {
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+header h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #ffcc00, #ff6f61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    animation: slideIn 1.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+header p{
+    font-size: 2rem;
+    font-weight: 200;
+}
+#about{
+    background-color: #333;
+    color: aliceblue;
+}
+#about h2{
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #ffcc00, #ff6f61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    animation: slideIn 1.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+#about p{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#services{
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+#services h2{
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #ffcc00, #ff6f61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    animation: slideIn 1.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+#services p{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#contact{
+    background-color: #333;
+    color: aliceblue;
+}
+#contact h2{
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #ffcc00, #ff6f61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    animation: slideIn 1.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+#contact p{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+
