@@ -1,5 +1,5 @@
 => Responsive Landing Page : 
-This project is a responsive landing page designed as part of my task at Prodjuy Info Tech. It features a fixed navigation bar, interactive hover effects, and a dynamic scroll effect.
+This project is a responsive landing page designed as part of my task at Prodigy Info Tech. It features a fixed navigation bar, interactive hover effects, and a dynamic scroll effect.
 
 => Key Features : 
 Fixed Navigation Bar: The navigation bar remains at the top of the page as the user scrolls.
